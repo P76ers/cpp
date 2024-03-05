@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "name": "(Windows) Starten",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "Programmnamen eingeben, z. B. \"${workspaceFolder}/a.exe\"",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/downloads/C++/vorlesung/17.11",
+      "program": "c:/downloads/C++/vorlesung/17.11/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
